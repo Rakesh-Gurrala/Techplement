@@ -1,0 +1,92 @@
+
+@keyframes changeBack {
+    0% {
+        background-color: chartreuse;
+    }
+    1% {
+        background-color: rgb(47, 56, 87);
+    }
+    5% {
+        background-color: rgb(71, 77, 27);
+    }
+    100% {
+        background-color: rgb(129, 3, 8);
+    }
+}
+
+@keyframes textBack {
+    0% {
+        color: black;
+    }
+    1% {
+        color: black;
+    }
+    5% {
+        color: black;
+    }
+    100% {
+        color: whitesmoke;
+    }
+}
+
+body {
+    animation: changeBack 5s infinite;
+}
+
+h1 {
+    animation: textBack 5s infinite;
+    font-weight: bold;
+}
+.container {
+    text-align: center;
+    margin: 100px;
+}
+.search-bar {
+    margin-bottom: 30px;
+}
+.search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 20%;
+}
+.search-bar button {
+    padding: 5px 10px;
+    margin-right: 50%;
+    background-color: seashell;
+}
+.weather {
+    margin-bottom: 30px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px 10px silver;
+}
+.weather-details {
+    margin-bottom: 20px;
+}
+.temperature {
+    font-size: 24px;
+    font-weight: bold;
+}
+#icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+#location {
+    font-size: 20px;
+    margin-right: 10px;
+}
+#description {
+    margin-top: 0;
+}
+#temp {
+    margin: 0;
+}
+#unit {
+    font-size: 14px;
+    margin: 0;
+}
